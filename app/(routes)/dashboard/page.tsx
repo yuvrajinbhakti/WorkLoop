@@ -1,12 +1,6 @@
-import React from "react";
-import { UserButton } from "@clerk/nextjs";
-
+import Header from "./_components/Header";
 const Dashboard = () => {
-  return (
-    <div>
-      <UserButton />
-    </div>
-  );
+  return <Header />;
 };
 
 export default Dashboard;
